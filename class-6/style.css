@@ -1,0 +1,84 @@
+p {
+    border-color: black;
+    border-width: 3px;
+    border-style: dotted;
+}
+
+
+h1 {
+    background-color: green;
+}
+
+p.normal {
+    border: 2px solid red;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+/* border:top,right,bottom,left */
+
+.margin-1 {
+    margin: 10px;
+}
+
+.margin-2 {
+    margin: 10px 15px;
+}
+
+.margin-3 {
+    margin: 10px 15px 20px;
+}
+
+.margin-4 {
+    margin: 10px 15px 20px 10px;
+}
+
+.padding-1 {
+    padding: 30px;
+}
+
+.padding-2 {
+    padding: 10px 50px;
+}
+
+.padding-3 {
+    padding: 45px 15px 30px;
+}
+
+.padding-4 {
+    padding: 15px 25px 35px 45px;
+}
+
+.btn{
+    
+    border-radius: 30px;
+    border-color: black;
+    color: black;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+}
+
+.btn:hover{
+    
+    color: white;
+}
+ 
+.div1{
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.div2{
+    text-transform: lowercase;
+    overflow: scroll;
+}
+
+.div3{
+    text-transform: capitalize;
+    overflow: auto;
+}
